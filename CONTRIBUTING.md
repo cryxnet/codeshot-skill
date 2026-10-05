@@ -5,7 +5,7 @@ Thanks for helping! This is a small project; the goal is to keep it **dependency
 ## Dev setup
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/codeshot.git && cd codeshot
+git clone https://github.com/cryxnet/codeshot.git && cd codeshot
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python3 skills/code-screenshot/scripts/codeshot.py --doctor
