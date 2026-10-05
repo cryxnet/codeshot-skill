@@ -1,0 +1,3 @@
+# Optional but recommended. Without Pillow codeshot writes SVG; without Pygments code is uncoloured.
+pillow>=9.0
+pygments>=2.14

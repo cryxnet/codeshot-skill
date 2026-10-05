@@ -1,0 +1,17 @@
+[1m======================== test session starts ========================[0m
+platform linux -- Python 3.12.3, pytest-8.2.0
+collected 8 items
+
+tests/test_auth.py [32m....[0m                                       [ 50%]
+tests/test_cart.py [32m.[31mF[32m.[0m[31mF[0m                                       [100%]
+
+[31m[1m_______________________ test_apply_coupon _______________________[0m
+
+    def test_apply_coupon():
+>       assert cart.total(coupon='SAVE10') == 90
+[31mE       assert 100 == 90[0m
+[31mE        +  where 100 = cart.total(coupon='SAVE10')[0m
+
+[31mFAILED[0m tests/test_cart.py::test_apply_coupon - assert 100 == 90
+[31mFAILED[0m tests/test_cart.py::test_remove_item - KeyError: 'sku'
+[31m=================== 2 failed, 6 passed in 0.42s ====================[0m
